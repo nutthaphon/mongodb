@@ -17,4 +17,6 @@ COPY startup.sh .
 
 RUN chmod +x startup.sh
 
+EXPOSE 27017
+
 CMD "./startup.sh"
